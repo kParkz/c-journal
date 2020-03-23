@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>corona-diaries</title>
+  </head>
+  <body>
+    <div>
+      <div class="w3-bar w3-black">
+        <button class="we-bar-item w3-button" onClick="openTab('my')">
+          my-journal
+        </button>
+        <button class="we-bar-item w3-button" onClick="openTab('other')">
+          other-journal
+        </button>
+        <button class="we-bar-item w3-button" onClick="openTab('info')">
+          covid-19-info
+        </button>
+      </div>
+      <div id="my" class="tab">
+        <h2>my-journal</h2>
+        <p>This is where my journal is going to go.</p>
+      </div>
+
+      <div id="other" class="tab" style="display:none">
+        <h2>other-journal</h2>
+        <p>This is where other's journals are going to go</p>
+      </div>
+
+      <div id="info" class="tab" style="display:none">
+        <h2>covid-19-info</h2>
+        <p>This is where info about the Coronavirus is going to go</p>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
